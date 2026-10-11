@@ -1,0 +1,6 @@
+# Exact versions used for this run; torch CPU wheel installed separately.
+torch==2.8.0
+numpy==2.0.2
+scikit-learn==1.6.1
+matplotlib==3.9.4
+reportlab==4.4.9

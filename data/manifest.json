@@ -1,0 +1,50 @@
+{
+  "repository": "https://github.com/tatsu-lab/alpaca_eval",
+  "revision": "cd543a149df89434d8a54582c0151c0b945c3d20",
+  "seed": 448,
+  "data_license": "AlpacaEval dataset card: CC BY-NC 4.0; repository: Apache 2.0",
+  "files": [
+    {
+      "family": "GPT",
+      "model": "gpt4",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/cd543a149df89434d8a54582c0151c0b945c3d20/results/gpt4/model_outputs.json",
+      "sha256": "9c5149c146fadc99285f23abbaec2a62ba94ffa35c1dddacb70686571d9d780e",
+      "rows": 805
+    },
+    {
+      "family": "Claude",
+      "model": "claude-2",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/cd543a149df89434d8a54582c0151c0b945c3d20/results/claude-2/model_outputs.json",
+      "sha256": "aaab6625ea5825776d7aa0510a1e60d8c8ae0c11f1059648dbd75bf0289f6b3f",
+      "rows": 805
+    },
+    {
+      "family": "Llama",
+      "model": "llama-2-70b-chat-hf",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/cd543a149df89434d8a54582c0151c0b945c3d20/results/llama-2-70b-chat-hf/model_outputs.json",
+      "sha256": "854b753c5135d4b698027d3423a12a94317afc654b3271fc8e384812fbe0b3c9",
+      "rows": 804
+    }
+  ],
+  "models": {
+    "GPT": "gpt4",
+    "Claude": "claude-2",
+    "Llama": "llama-2-70b-chat-hf"
+  },
+  "common_prompts": 804,
+  "retained_prompts": 804,
+  "removed_cross_prompt_duplicate_groups": 0,
+  "rows": 2412,
+  "split_rows": {
+    "train": 1686,
+    "validation": 363,
+    "test": 363
+  },
+  "source_rows": {
+    "selfinstruct": 753,
+    "oasst": 564,
+    "helpful_base": 387,
+    "koala": 468,
+    "vicuna": 240
+  }
+}
